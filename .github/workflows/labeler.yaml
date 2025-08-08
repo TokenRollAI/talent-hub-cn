@@ -1,0 +1,22 @@
+name: AI Issue Labeler
+
+on:
+  issues:
+    types: [opened, edited, reopened]
+
+permissions:
+  issues: write
+  contents: read
+
+jobs:
+  label:
+    runs-on: ubuntu-latest
+    steps:
+      - name: AI Issue Labeler
+        uses: Disdjj/labeler@v1.0.4 # Replace with your repo and a specific version
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          api-key: ${{ secrets.AI_API_KEY }}
+          base-url: ${{ secrets.AI_BASE_URL }}
+          model: 'gpt-5-mini'
+          prompt: 'Add labels to the issue from the following list: `{existing_labels}`, you should add all related labels.\n\n---\n\n Isue Title: \n\n{issue_title}\n\n---\n\nIssue Body:\n\n{issue_body}'

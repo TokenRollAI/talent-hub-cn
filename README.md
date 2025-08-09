@@ -1,5 +1,12 @@
 # 代码, 是最好的简历
 
+> 快捷入口:
+> 
+>  * [看招聘](https://github.com/TokenRollAI/talent-hub-cn/issues?q=is%3Aissue%20state%3Aopen%20label%3A%2B%E6%8B%9B%E8%81%98%20sort%3Aupdated-asc)
+>  * [看求职](https://github.com/TokenRollAI/talent-hub-cn/issues?q=is%3Aissue%20state%3Aopen%20label%3A%2B%E6%B1%82%E8%81%8C%20sort%3Aupdated-asc)
+> * [7天热门](https://github.com/TokenRollAI/talent-hub-cn/issues?q=is%3Aissue%20state%3Aopen%20sort%3Acomments-desc%20AND%20created%3A%3E%40today-1w)
+
+
 ## 1. 这是什么？
 
 一个基于真实开源贡献, 高信噪比的人才和招聘平台. 一个能够获得真实反馈, 直接触达的平台.

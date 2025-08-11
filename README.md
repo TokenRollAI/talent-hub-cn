@@ -5,6 +5,7 @@
 >  * [看招聘](https://github.com/TokenRollAI/talent-hub-cn/issues?q=is%3Aissue%20state%3Aopen%20label%3A%2B%E6%8B%9B%E8%81%98%20sort%3Aupdated-asc)
 >  * [看求职](https://github.com/TokenRollAI/talent-hub-cn/issues?q=is%3Aissue%20state%3Aopen%20label%3A%2B%E6%B1%82%E8%81%8C%20sort%3Aupdated-asc)
 > * [7天热门](https://github.com/TokenRollAI/talent-hub-cn/issues?q=is%3Aissue%20state%3Aopen%20sort%3Acomments-desc%20AND%20created%3A%3E%40today-1w)
+> * [每周五8点周刊](https://talenthub.tokenroll.ai/)
 
 
 ## 1. 这是什么？
